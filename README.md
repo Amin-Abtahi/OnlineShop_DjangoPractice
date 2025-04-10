@@ -13,7 +13,7 @@ This is a boilerplate to start a django project with postgresql as database runn
 First clone the project.
 
 ```bash
-https://github.com/Amin-Abtahi/RawProject.git
+https://github.com/Amin-Abtahi/OnlineShop_DjangoPractice.git
 ```
 
 Then make sure Docker is running.
