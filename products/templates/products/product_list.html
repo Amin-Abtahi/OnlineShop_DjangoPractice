@@ -3,7 +3,8 @@
 {% block content %}
 	<h1>Product List view</h1>
     {% for product in products %}
-    	<h4>{{ product.title }}</h4>
+{#        <a href="{% url 'product_detail' product.id %}"><h3>{{ product.title }}</h3></a>#}  # ya injori, ya mesle paeini
+        <a href="{{ product.get_absolute_url }}"><h3>{{ product.title }}</h3></a>
     {% endfor %}
 
 {% endblock %}
