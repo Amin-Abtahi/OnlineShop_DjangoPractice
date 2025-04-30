@@ -51,6 +51,8 @@ INSTALLED_APPS = [
     # my apps
     'accounts',
     'pages',
+    'products.apps.ProductsConfig',
+
 
 ]
 
